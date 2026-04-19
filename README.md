@@ -59,27 +59,27 @@ Result: 100% packet loss
 ## Screenshots
 #Topology
 
-![Topology](screenshots/topology.png)
+![Topology](topology.png)
 
 #Ping Test
 
-![Ping](screenshots/pingall.png)
+![Ping](pingall.png)
 
 #Bandwidth
 
-![Bandwidth](screenshots/bandwidth.png)
+![Bandwidth](bandwidth.png)
 
 #ICMP Packets
 
-![ICMP](screenshots/icmp.png)
+![ICMP](icmp.png)
 
 ### ARP Packets
 
-![ARP](screenshots/arp.png)
+![ARP](arp.png)
 
 #Flow Rule Drop
 
-![Drop](screenshots/drop_rule.png)
+![Drop](drop_rule.png)
 
 
 # Conclusion
