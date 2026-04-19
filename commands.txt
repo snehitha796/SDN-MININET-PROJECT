@@ -1,0 +1,6 @@
+sudo mn --controller=remote --topo=linear,3
+pingall
+h1 iperf -s &
+h2 iperf -c h1
+sh ovs-ofctl add-flow s1 priority=100,icmp,nw_src=10.0.0.1,nw_dst=10.0.0.2,actions=drop
+h1 ping h2
