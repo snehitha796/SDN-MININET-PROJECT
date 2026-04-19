@@ -18,7 +18,9 @@ Linear topology with 3 hosts and 3 switches:
 
 h1 --- s1 --- s2 --- s3 --- h3
               |
-              h2          
+              h2         
+
+(h1,s1) (h2,s2) (h3,s3)->topology
 
 
  STEPS PERFORMED:
